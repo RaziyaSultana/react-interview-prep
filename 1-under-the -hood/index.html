@@ -1,0 +1,31 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/babel-standalone@6.26.0/babel.min.js"></script>
+    <!-- 
+         Babel is a free and open-source JavaScript transcompiler that is mainly used to convert ECMAScript 2015+ (ES6+) code into backwards-compatible JavaScript code that can be run by older JavaScript engines
+    -->
+</head>
+
+<body>
+    <div id="root"></div>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <!-- 
+       react --  script to use react features into the code
+    -->
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <!-- 
+        react-dom -- for browser compatability
+        react-native -- for mobile app compatability
+    -->
+    <script  type="text/babel" src="script.js"></script>
+    <!-- 
+       type="text/babel" -- need to be added to transcompile using babel and to identify the JSX elements as valid in script.js file
+
+    -->
+</body>
+
+</html>
