@@ -4,6 +4,8 @@ import UseEffectHook from './components/use-effect-hook';
 import Counter from './components/counter';
 import UseRefHook from './components/use-ref-hook';
 import UseContextHook from './components/use-context-hook';
+import UseReducerHook from './components/use-reducer-hook';
+
 function App() {
 
   return (
@@ -13,7 +15,8 @@ function App() {
       {/* <UseEffectHook /> */}
       {/* <Counter /> */}
       {/* <UseRefHook /> */}
-       <UseContextHook />
+       {/* <UseContextHook /> */}
+       <UseReducerHook />
     </>
   )
 }
