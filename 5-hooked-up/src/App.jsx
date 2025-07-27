@@ -5,6 +5,7 @@ import Counter from './components/counter';
 import UseRefHook from './components/use-ref-hook';
 import UseContextHook from './components/use-context-hook';
 import UseReducerHook from './components/use-reducer-hook';
+import UseMemoAndCallbackHook from './components/use-memo-and-use-callback-hook';
 
 function App() {
 
@@ -16,7 +17,8 @@ function App() {
       {/* <Counter /> */}
       {/* <UseRefHook /> */}
        {/* <UseContextHook /> */}
-       <UseReducerHook />
+       {/* <UseReducerHook /> */}
+       <UseMemoAndCallbackHook />
     </>
   )
 }
